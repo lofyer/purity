@@ -1,0 +1,13 @@
+1. File based system.
+
+host1     host2    host3
+|           |        |
++------ Storage------+
+            |
+            +--config.files
+            |
+            +--vm_related_files
+            |
+            +--host_info.files
+
+2. All vm will be started on the host with best score.
