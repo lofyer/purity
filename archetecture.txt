@@ -8,6 +8,6 @@ host1     host2    host3
             |
             +--vm_related_files
             |
-            +--host_info.files
+            +--hosts.list
 
 2. All vm will be started on the host with best score.
